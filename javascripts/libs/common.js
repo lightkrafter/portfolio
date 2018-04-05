@@ -383,7 +383,7 @@ top = -top;
 extraCss = obj.data( 'css' ) || "";
 //$('body').wrapInner('<div class="vwrap"></div>');
 vwrap = $('.vwrap');
-core = '<div class="vbox-overlay ' + extraCss + '" style="background:'+ overlayColor +'; position:fixed !important;"><div class="vbox-preloader">Loading...</div><div class="vbox-container"><div class="vbox-content"></div></div><div class="vbox-title"></div><div class="vbox-num">0/0</div><div class="vbox-close">X</div><div class="vbox-next">next</div><div class="vbox-prev">prev</div></div>';
+core = '<div class="vbox-overlay ' + extraCss + '" style="background:'+ overlayColor +'; position:fixed !important;"><div class="vbox-preloader">Loading...</div><div class="vbox-container"><div class="vbox-content"></div></div><div class="vbox-title"></div><div class="vbox-close">X</div><div class="vbox-next">next</div><div class="vbox-prev">prev</div></div>';
 $('body').append(core);
 overlay = $('.vbox-overlay');
 container = $('.vbox-container');
